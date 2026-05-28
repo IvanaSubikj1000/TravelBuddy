@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TravelBuddy</string>
+    <string name="welcome_title">Добредојдовте во TravelBuddy</string>
+    <string name="login_email">Е-пошта</string>
+    <string name="login_password">Лозинка</string>
+    <string name="btn_login">Најави се</string>
+    <string name="btn_register">Регистрирај се</string>
+    <string name="btn_guest">Продолжи како Гостин</string>
+</resources>
