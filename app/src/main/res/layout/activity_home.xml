@@ -17,6 +17,15 @@
         android:layout_marginBottom="16dp"
         android:layout_gravity="center_horizontal" />
 
+    <EditText
+        android:id="@+id/etDestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Внеси дестинација (пр. Париз)"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:layout_marginBottom="8dp"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,12 +33,12 @@
         android:layout_marginBottom="16dp">
 
         <EditText
-            android:id="@+id/etDestination"
+            android:id="@+id/etDate"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="Внеси дестинација (пр. Париз)"
-            android:inputType="text"
+            android:hint="Внеси датум (пр. 15.07)"
+            android:inputType="date"
             android:minHeight="48dp" />
 
         <Button
